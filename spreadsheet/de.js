@@ -20,7 +20,7 @@ export default {
 		"cancel": "Abbrechen",
 		"save": "Speichern",
 		// multisheets
-		"sheet": "Arbeitsblatt",
+		"sheet": "Blatt",
 		// conditions
 		"conditional-format": "Bedingte Formatierung",
 		"condition": "Bedingung",
@@ -148,7 +148,7 @@ export default {
 		"new-sheet": "Neues Arbeitsblatt",
 		"excel-import": "Von Excel importieren",
 		"excel-export": "Nach Excel exportieren",
-		"sheet": "Arbeitsblatt",
+		"sheet": "Blätter",
 		"copy-sheet": "In ein neues Arbeitsblatt kopieren",
 		"edit": "Bearbeiten",
 		"undo": "Widerrufen",
