@@ -141,14 +141,14 @@ export default {
 		"sheet": "Arbeitsblatt"
 	},
 	menus:{
-		"remove-sheet": "entfernen",
-		"rename-sheet": "umbenennen",
+		"remove-sheet": "Entfernen",
+		"rename-sheet": "Umbenennen",
 		"file": "Datei",
 		"new": "Neu",
 		"new-sheet": "Neues Arbeitsblatt",
 		"excel-import": "Von Excel importieren",
 		"excel-export": "Nach Excel exportieren",
-		"sheet": "Arbeitsbl.",
+		"sheet": "Arbeitsblatt",
 		"copy-sheet": "In ein neues Arbeitsblatt kopieren",
 		"edit": "Bearbeiten",
 		"undo": "Widerrufen",
