@@ -5,6 +5,11 @@ export default {
 		"currency": "Currency",
 		"number": "Number",
 		"percent": "Percent",
+		"custom-format": "Custom",
+		"decimal-places":"Decimal places",
+		"separator":"Group separator",
+		"negative":"Negative number",
+		"format-docs":"How to create a format",
 		// titles
 		"undo-redo": "Undo/Redo",
 		"font": "Font",
@@ -186,7 +191,6 @@ export default {
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
 		"add-dropdown": "Add dropdown",
-		"custom-format": "Custom format",
 		"lock-cell": "Lock/unlock cell",
 		"print": "Print"
 	}
