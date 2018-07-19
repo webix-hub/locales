@@ -5,6 +5,11 @@ export default {
 		"currency": "Денежный",
 		"number": "Числовой",
 		"percent": "Проценты",
+		"custom-format": "Свой формат",
+		"decimal-places":"Десятичные знаки",
+		"separator":"Разряды",
+		"negative":"Отрицательное число",
+		"format-docs":"Как создать свой формат",
 		// titles
 		"undo-redo": "Действие",
 		"font": "Шрифты",
@@ -186,7 +191,6 @@ export default {
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
 		"add-dropdown": "Добавить выпадающий список",
-		"custom-format": "Задать числовой формат",
 		"lock-cell": "Закрыть ячейку",
 		"print": "Распечатать"
 	}
