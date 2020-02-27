@@ -5,10 +5,13 @@ export default {
 		"currency": "Currency",
 		"number": "Number",
 		"percent": "Percent",
+		"date": "Date",
+		"string": "Text",
 		"custom-format": "Custom",
 		"decimal-places":"Decimal places",
 		"separator":"Group separator",
 		"negative":"Negative number",
+		"date-format":"Date format",
 		"format-docs":"How to create a format",
 		// titles
 		"undo-redo": "Undo/Redo",
@@ -209,9 +212,16 @@ export default {
 		"add-comment":"Comment"
 	},
 	table:{
-		"math-error":"ERROR"
+		"math-error":"ERROR",
+		"format-error":"INCORRECT FORMAT"
 	},
 	liveEditor:{
 		"edit":"Edit:"
+	},
+	formats:{
+		"dateFormat": "mm/dd/yyyy",
+		"timeFormat": "hh:mm AM/PM",
+		"longDateFormat": "dd mmmm yyyy",
+		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM"
 	}
 };
