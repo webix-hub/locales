@@ -99,7 +99,12 @@ export default {
 		"page-width":"Page width",
 		"page-actual":"Actual Size",
 		"page-portrait":"Portrait",
-		"page-landscape":"Landscape"
+		"page-landscape":"Landscape",
+		//comment
+		"comment":"Comment",
+		//resize
+		"width":"Width",
+		"height":"Height"
 	},
 	tooltips: {
 		"color": "Font color",
@@ -129,6 +134,8 @@ export default {
 		"undo": "Undo",
 		"redo": "Redo",
 		"format": "Number format",
+		"increase-decimals":"Increase decimal places",
+		"decrease-decimals":"Decrease decimal places",
 		"font-weight": "Bold",
 		"font-style": "Italic",
 		"text-decoration": "Underline",
@@ -143,7 +150,10 @@ export default {
 		"add-link": "Add link",
 		"row": "Rows",
 		"column": "Columns",
-		"sheet": "Sheet"
+		"sheet": "Sheet",
+		"add-image": "Image",
+		"add-sparkline": "Graph",
+		"add-comment": "Comment"
 	},
 	menus:{
 		"remove-sheet": "Remove sheet",
@@ -163,11 +173,13 @@ export default {
 		"delete-column": "Delete column",
 		"show-column": "Show column",
 		"hide-column": "Hide column",
+		"resize-column": "Resize column",
 		"rows": "Rows",
 		"insert-row": "Insert row",
 		"delete-row": "Delete row",
 		"show-row": "Show row",
 		"hide-row": "Hide row",
+		"resize-row": "Resize row",
 		"insert": "Insert",
 		"conditional-format": "Conditional format",
 		"clear": "Clear",
@@ -175,6 +187,7 @@ export default {
 		"clear-style":"Styles",
 		"clear-conditional-formats":"Conditional formats",
 		"clear-dropdown-editors":"Dropdowns and filters",
+		"clear-comments":"Comments",
 		"clear-all":"All",
 		"add-image": "Image",
 		"add-sparkline": "Graph",
@@ -192,6 +205,13 @@ export default {
 		"hide-headers": "Hide/show headers",
 		"add-dropdown": "Add dropdown",
 		"lock-cell": "Lock/unlock cell",
-		"print": "Print"
+		"print": "Print",
+		"add-comment":"Comment"
+	},
+	table:{
+		"math-error":"ERROR"
+	},
+	liveEditor:{
+		"edit":"Edit:"
 	}
 };
