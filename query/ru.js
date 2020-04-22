@@ -1,0 +1,28 @@
+export default {
+    "Add filter": "Добавить фильтр",
+
+    in: "=",
+	equal: "=",
+	notEqual: "<>",
+	less: "<",
+	greater: ">",
+	greaterOrEqual: ">=",
+	lessOrEqual: "<=",
+    contains: "содержит",
+    notContains: "не содержит",
+    beginsWith: "начинается с",
+    notBeginsWith: "не начинается с",
+    endsWith: "заканчивается",
+    notEndsWith: "не заканчивается",
+    between: "включает",
+    notBetween: "не включает",
+
+    and: "И",
+    or: "ИЛИ",
+    Edit: "Изменить",
+    "Add Filter": "+ Фильтр",
+    "Add Group": "+ Группа",
+    Delete: "Удалить",
+    Apply: "Применить",
+    Cancel: "Отмена",
+};

@@ -1,4 +1,4 @@
-var ruLocale = {
+export default {
 	Files: "Файлы",
 	"My Files": "Мае файлы",
 	Email: "Адрас электроннай пошты",

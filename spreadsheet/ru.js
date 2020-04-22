@@ -5,10 +5,13 @@ export default {
 		"currency": "Денежный",
 		"number": "Числовой",
 		"percent": "Проценты",
+		"date":"Дата",
+		"string":"Текст",
 		"custom-format": "Свой формат",
 		"decimal-places":"Десятичные знаки",
 		"separator":"Разряды",
 		"negative":"Отрицательное число",
+		"date-format":"Формат даты",
 		"format-docs":"Как создать свой формат",
 		// titles
 		"undo-redo": "Действие",
@@ -86,7 +89,7 @@ export default {
 		"print-settings":"Основные настройки",
 		"print-paper":"Размер бумаги",
 		"print-layout":"Ориентация",
-		"current-sheet":"Акитвный лист",
+		"current-sheet":"Активный лист",
 		"all-sheets":"Все листы",
 		"selection":"Выбранные ячейки",
 		"borderless":"Спрятать сетку",
@@ -99,7 +102,9 @@ export default {
 		"page-width":"Ширина страницы",
 		"page-actual":"Реальный размер",
 		"page-portrait":"Вертикальная",
-		"page-landscape":"Горизонтальная"
+		"page-landscape":"Горизонтальная",
+		//comment
+		"comment":"Комментировать"
 	},
 	tooltips: {
 		"color": "Цвет текста",
@@ -129,6 +134,8 @@ export default {
 		"undo": "Отменить",
 		"redo": "Вернуть",
 		"format": "Выбрать числовой формат",
+		"increase-decimals":"Увеличить число десятичных знаков",
+		"decrease-decimals":"Уменьшить число десятичных знаков",
 		"font-weight": "Жирный",
 		"font-style": "Курсив",
 		"text-decoration": "Подчеркнутый",
@@ -163,11 +170,13 @@ export default {
 		"delete-column": "Удалить столбец",
 		"show-column": "Показать столбец",
 		"hide-column": "Спрятать столбец",
+		"resize-column": "Изменить ширину",
 		"rows": "Строки",
 		"insert-row": "Вставить строку",
 		"delete-row": "Удалить строку",
 		"show-row": "Показать строку",
 		"hide-row": "Спрятать строку",
+		"resize-row": "Изменить высоту",
 		"insert": "Вставка",
 		"conditional-format": "Условное форматирование",
 		"clear": "Очистить",
@@ -175,6 +184,7 @@ export default {
 		"clear-style":"Стили",
 		"clear-conditional-formats":"Условное форматирование",
 		"clear-dropdown-editors":"Списки и фильтры",
+		"clear-comments":"Комментарии",
 		"clear-all":"Всё",
 		"add-image": "Рисунок",
 		"add-sparkline": "График",
@@ -192,6 +202,20 @@ export default {
 		"hide-headers": "Спрятать/показать заголовки",
 		"add-dropdown": "Добавить выпадающий список",
 		"lock-cell": "Закрыть ячейку",
-		"print": "Распечатать"
+		"print": "Распечатать",
+		"add-comment":"Комментировать"
+	},
+	table:{
+		"math-error":"ОШИБКА",
+		"format-error":"ОШИБКА В ФОРМУЛЕ"
+	},
+	formats:{
+		"dateFormat": "mm/dd/yyyy",
+		"timeFormat": "hh:mm AM/PM",
+		"longDateFormat": "dd mmmm yyyy",
+		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM"
+	},
+	liveEditor:{
+		"edit":"Правка:"
 	}
 };
