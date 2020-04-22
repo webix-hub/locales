@@ -104,7 +104,10 @@ export default {
 		"page-portrait":"Вертикальная",
 		"page-landscape":"Горизонтальная",
 		//comment
-		"comment":"Комментировать"
+		"comment":"Комментировать",
+		//resize
+		"width":"Ширина",
+		"height":"Высота"
 	},
 	tooltips: {
 		"color": "Цвет текста",
@@ -150,7 +153,10 @@ export default {
 		"add-link": "Вставить ссылку",
 		"row": "Строки",
 		"column": "Столбцы",
-		"sheet": "Листы",		
+		"sheet": "Листы",
+		"add-image": "Изображение",
+		"add-sparkline": "График",
+		"add-comment": "Комментарий"
 	},
 	menus:{
 		"remove-sheet": "Удалить лист",
