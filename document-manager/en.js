@@ -13,7 +13,6 @@ export default {
 	"Share File": "Share File",
 	"Invite someone...": "Invite someone...",
 	Invite: "Invite",
-	"Email expected, but found:": "Email expected, but found:",
 	Restore: "Restore",
 	"Delete from trash": "Delete from trash",
 	"Restoring...": "Restoring...",

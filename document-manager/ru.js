@@ -13,7 +13,6 @@ export default {
 	"Share File": "Поделиться файлом",
 	"Invite someone...": "Пригласить пользователя...",
 	Invite: "Пригласить",
-	"Email expected, but found:": "Неверно введён email:",
 	Restore: "Восстановить",
 	"Delete from trash": "Удалить из корзины",
 	"Restoring...": "Восстанавливаем...",
