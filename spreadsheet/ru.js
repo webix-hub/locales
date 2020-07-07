@@ -32,8 +32,8 @@ export default {
 		// conditions
 		"conditional-format": "Условное форматирование",
 		"condition": "Условие",
-		"conditional-value": "Значение",
 		"conditional-style": "Стиль",
+		"conditional-operator": "Оператор",
 		"conditional-between":"между",
 		"conditional-not-equal":"не равно",
 		// ranges
@@ -74,7 +74,12 @@ export default {
 		"link-url": "URL",
 		//images
 		"image": "Рисунок",
+		"add-image-cell":"В ячейку",
+		"add-image-top":"Над ячейками",
+		//charts
 		"graph": "График",
+		"add-sparkline":"В ячейку",
+		"add-chart":"Над ячейками",
 		//conditional format labels
 		"display" : "Стиль",
 		"value" : "Значение",
@@ -107,7 +112,75 @@ export default {
 		"comment":"Комментировать",
 		//resize
 		"width":"Ширина",
-		"height":"Высота"
+		"height":"Высота",
+		"fit-content": "Под контент",
+		//views
+		"edit-view":"Редактировать",
+		"remove-view":"Удалить",
+		"chart-edit":"Редактор Графиков",
+
+		"chart-common":"Основные",
+		"chart-series":"Серии",
+		"chart-extras":"Стилизация",
+
+		"export-view":"Загрузить",
+		"export-view-pdf":"PDF документ",
+		"export-view-png":"PNG картинка",
+		"export-view-excel":"Excel файл",
+
+		"line-chart":"Линейный",
+		"area-chart":"С областями",
+		"bar-chart":"Столбчатый",
+		"donut-chart":"Кольцевой",
+		"pie-chart":"Круговой",
+		"radar-chart":"Лепестковый",
+		"spline-chart":"Сглаженный",
+		"splinearea-chart":"Сглаженный с областями",
+
+		"chart-axis":"Оси",
+		"chart-scale":"Линии",
+		"chart-scale-color":"Цвет линий",
+		"chart-xAxis-title":"Название оси X",
+		"chart-yAxis-title":"Название оси Y",
+		"chart-col-xAxis":"Ось Х: левый столбец",
+		"chart-row-xAxis":"Ось Х: верхний ряд",
+		"chart-xAxis-range":"Диапазон оси X",
+
+		"chart-legend":"Легенда",
+		"chart-row-legend":"Легенда: верхний ряд",
+		"chart-col-legend":"Легенда: левый столбец",
+		"chart-legend-range":"Диапазон легенды",
+		"chart-legend-align":"По горизонтали",
+		"chart-legend-left":"Слева",
+		"chart-legend-right":"Справа",
+		"chart-legend-center":"В центре",
+		"chart-legend-valign":"По вертикали",
+		"chart-legend-top":"Вверху",
+		"chart-legend-middle":"По середине",
+		"chart-legend-bottom":"Внизу",
+
+		"chart-item":"Линия",
+		"stacked-chart":"Накопление",
+		"chart-range":"Диапазон",
+		"chart-series-color":"Цвет",
+		"add-line":"Добавить линию",
+		"chart-type":"Тип",
+		"chart-tooltip":"Подсказки",
+
+		"chart-data-from":"Брать данные из",
+		"chart-columns":"колонок",
+		"chart-rows":"строк",
+
+		"chart-markers":"Маркеры",
+		"chart-markers-square":"Квадрат",
+		"chart-markers-triangle":"Треугольник",
+		"chart-markers-diamond":"Ромб",
+		"chart-markers-round":"Круг",
+
+		"chart-pie-text":"Показать значения",
+		"chart-pie-3d":"3D",
+
+		"chart-radar-circle":"Круговая граница"
 	},
 	tooltips: {
 		"color": "Цвет текста",
@@ -144,6 +217,7 @@ export default {
 		"text-decoration": "Подчеркнутый",
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
+		"create-filter": "Создать/удалить фильтры",
 		"freeze-columns" : "Закрепить столбцы",		
 		"add-range": "Имя выделенного диапазона",
 		"conditional": "Условное форматирование",
@@ -154,9 +228,9 @@ export default {
 		"row": "Строки",
 		"column": "Столбцы",
 		"sheet": "Листы",
-		"add-image": "Изображение",
+		"add-image": "Рисунок",
 		"add-sparkline": "График",
-		"add-comment": "Комментарий"
+		"add-comment": "Комментировать"
 	},
 	menus:{
 		"remove-sheet": "Удалить лист",
@@ -192,20 +266,24 @@ export default {
 		"clear-dropdown-editors":"Списки и фильтры",
 		"clear-comments":"Комментарии",
 		"clear-all":"Всё",
-		"add-image": "Рисунок",
-		"add-sparkline": "График",
+		"image": "Рисунок",
+		"add-image-cell":"В ячейку",
+		"add-image-top":"Над ячейками",
+		"graph": "График",
+		"add-sparkline":"В ячейку",
+		"add-chart":"Над ячейками",
 		"data": "Данные",
 		"add-link": "Добавить ссылку",
 		"add-range": "Именованные диапазоны",
 		"sort": "Сортировка",
 		"sort-asc": "Сортировка от А до Я",
 		"sort-desc": "Сортировка от Я до А",
-		"create-filter": "Создать фильтр",
 		"view": "Вид",
 		"freeze-columns": "Закрепить столбцы",
 		"freeze-rows": "Закрепить строки",
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
+		"create-filter": "Создать/удалить фильтры",
 		"add-dropdown": "Добавить выпадающий список",
 		"lock-cell": "Закрыть ячейку",
 		"print": "Распечатать",
@@ -213,15 +291,17 @@ export default {
 	},
 	table:{
 		"math-error":"ОШИБКА",
-		"format-error":"ОШИБКА В ФОРМУЛЕ"
-	},
-	formats:{
-		"dateFormat": "mm/dd/yyyy",
-		"timeFormat": "hh:mm AM/PM",
-		"longDateFormat": "dd mmmm yyyy",
-		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM"
+		"format-error":"ОШИБКА В ФОРМАТЕ"
 	},
 	liveEditor:{
 		"edit":"Правка:"
+	},
+	formats:{
+		"dateFormat": "dd.mm.yyyy",
+		"timeFormat": "hh:mm",
+		"longDateFormat": "dd mmmm yyyy",
+		"fullDateFormat": "dd.mm.yyyy hh:mm",
+		"parseDateTime": "%d.%m.%Y %G:%i:%s",
+		"parseDate": "%d.%m.%Y"
 	}
 };
