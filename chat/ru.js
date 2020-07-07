@@ -1,4 +1,4 @@
-var ruLocale = {
+export default {
 	"Add members": "Добавить в чат",
 	"Are you sure to leave this chat?": "Вы точно хотите выйти из чата?",
 	Avatar: "Аватар",

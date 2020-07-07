@@ -1,4 +1,4 @@
-var zhLocale = {
+export default {
 	"Add members": "新增成员",
 	"Are you sure to leave this chat?": "您确定要离开此聊天吗",
 	Avatar: "头像",
