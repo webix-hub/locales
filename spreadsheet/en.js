@@ -32,8 +32,8 @@ export default {
 		// conditions
 		"conditional-format": "Conditional Format",
 		"condition": "Condition",
-		"conditional-value": "Value",
 		"conditional-style": "Style",
+		"conditional-operator": "Operator",
 		"conditional-between":"between",
 		"conditional-not-equal":"not equal",
 		// ranges
@@ -74,7 +74,12 @@ export default {
 		"link-url": "URL",
 		//images
 		"image": "Image",
+		"add-image-cell":"Add to cell",
+		"add-image-top":"Add above cells",
+		//charts
 		"graph": "Graph",
+		"add-sparkline":"Add to cell",
+		"add-chart":"Add above cells",
 		//conditional format labels
 		"display" : "Display",
 		"value" : "Value",
@@ -107,7 +112,75 @@ export default {
 		"comment":"Comment",
 		//resize
 		"width":"Width",
-		"height":"Height"
+		"height":"Height",
+		"fit-content": "Fit to content",
+		//views
+		"edit-view":"Edit",
+		"remove-view":"Remove",
+		"chart-edit":"Edit chart",
+
+		"chart-common":"Common",
+		"chart-series":"Series",
+		"chart-extras":"Extras",
+
+		"export-view":"Download",
+		"export-view-pdf":"PDF document",
+		"export-view-png":"PNG image",
+		"export-view-excel":"Excel file",
+
+		"line-chart":"Line",
+		"area-chart":"Area",
+		"bar-chart":"Bar",
+		"donut-chart":"Donut",
+		"pie-chart":"Pie",
+		"radar-chart":"Radar",
+		"spline-chart":"Spline",
+		"splinearea-chart":"Spline Area",
+
+		"chart-axis":"Axis",
+		"chart-scale":"Lines",
+		"chart-scale-color":"Scale color",
+		"chart-xAxis-title":"X axis title",
+		"chart-yAxis-title":"Y axis title",
+		"chart-col-xAxis":"Use left column as xAxis",
+		"chart-row-xAxis":"Use top row as xAxis",
+		"chart-xAxis-range":"xAxis range",
+
+		"chart-legend":"Legend",
+		"chart-row-legend":"Use top row as legend",
+		"chart-col-legend":"Use left column as legend",
+		"chart-legend-range":"Legend range",
+		"chart-legend-align":"Align",
+		"chart-legend-left":"Left",
+		"chart-legend-right":"Right",
+		"chart-legend-center":"Center",
+		"chart-legend-valign":"Vertical align",
+		"chart-legend-top":"Top",
+		"chart-legend-middle":"Middle",
+		"chart-legend-bottom":"Bottom",
+
+		"chart-item":"Data",
+		"stacked-chart":"Stacked",
+		"chart-range":"Range",
+		"chart-series-color":"Color",
+		"add-line":"Add line",
+		"chart-type":"Type",
+		"chart-tooltip":"Tooltips",
+
+		"chart-data-from":"Data series from",
+		"chart-columns":"columns",
+		"chart-rows":"rows",
+
+		"chart-markers":"Markers",
+		"chart-markers-square":"Square",
+		"chart-markers-triangle":"Triangle",
+		"chart-markers-diamond":"Diamond",
+		"chart-markers-round":"Round",
+
+		"chart-pie-text":"Show values inside",
+		"chart-pie-3d":"3D",
+
+		"chart-radar-circle":"Circled lines"
 	},
 	tooltips: {
 		"color": "Font color",
@@ -144,6 +217,7 @@ export default {
 		"text-decoration": "Underline",
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
+		"create-filter": "Create/remove filters",
 		"freeze-columns" : "Freeze/unfreeze columns",
 		"add-range": "Set name for the selected range",
 		"conditional": "Conditional formatting",
@@ -192,20 +266,24 @@ export default {
 		"clear-dropdown-editors":"Dropdowns and filters",
 		"clear-comments":"Comments",
 		"clear-all":"All",
-		"add-image": "Image",
-		"add-sparkline": "Graph",
+		"image": "Image",
+		"add-image-cell":"Add to cell",
+		"add-image-top":"Add above cells",
+		"graph": "Graph",
+		"add-sparkline":"Add to cell",
+		"add-chart":"Add above cells",
 		"data": "Data",
 		"add-link": "Add link",
 		"add-range": "Named ranges",
 		"sort": "Sort",
 		"sort-asc": "Sort A to Z",
 		"sort-desc": "Sort Z to A",
-		"create-filter": "Create filter",
 		"view": "View",
 		"freeze-columns": "Freeze/unfreeze columns",
 		"freeze-rows": "Freeze/unfreeze rows",
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
+		"create-filter": "Create/remove filters",
 		"add-dropdown": "Add dropdown",
 		"lock-cell": "Lock/unlock cell",
 		"print": "Print",
@@ -222,6 +300,8 @@ export default {
 		"dateFormat": "mm/dd/yyyy",
 		"timeFormat": "hh:mm AM/PM",
 		"longDateFormat": "dd mmmm yyyy",
-		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM"
+		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM",
+		"parseDateTime": "%m/%d/%Y %G:%i:%s",
+		"parseDate": "%m/%d/%Y"
 	}
 };
