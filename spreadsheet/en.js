@@ -114,6 +114,7 @@ export default {
 		"width":"Width",
 		"height":"Height",
 		"fit-content": "Fit to content",
+		"default-size":"Reset to default",
 		//views
 		"edit-view":"Edit",
 		"remove-view":"Remove",

@@ -114,6 +114,7 @@ export default {
 		"width":"Ширина",
 		"height":"Высота",
 		"fit-content": "Под контент",
+		"default-size":"По умолчанию",
 		//views
 		"edit-view":"Редактировать",
 		"remove-view":"Удалить",
