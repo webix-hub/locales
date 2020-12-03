@@ -16,6 +16,9 @@ export default {
 	Duration: "Duration",
 	Progress: "Progress",
 	Notes: "Notes",
+	Type: "Type",
+	Project: "Project",
+	Milestone: "Milestone",
 	"Add task": "Add task",
 	"Add project": "Add project",
 	"(no title)": "(no title)",
@@ -28,4 +31,8 @@ export default {
 	"Start to start": "Start to start",
 	"End to end": "End to end",
 	"Start to end": "Start to End",
+
+	Lasts: "Lasts",
+	day: "day",
+	days: "days",
 };

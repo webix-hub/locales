@@ -16,6 +16,9 @@ export default {
 	Duration: "Длительность",
 	Progress: "Готовность",
 	Notes: "Заметки",
+	Type: "Тип",
+	Project: "Проект",
+	Milestone: "Веха",
 	"Add task": "Добавить задачу",
 	"Add project": "Добавить проект",
 	"(no title)": "(без названия)",
@@ -28,4 +31,8 @@ export default {
 	"Start to start": "начало-начало",
 	"End to end": "конец-конец",
 	"Start to end": "начало-конец",
+
+	Lasts: "Длится",
+	day: "день",
+	days: "дней",
 };
