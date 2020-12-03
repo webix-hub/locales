@@ -16,6 +16,9 @@ export default {
 	Duration: "持续时间",
 	Progress: "进展",
 	Notes: "笔记",
+	Type: "类型",
+	Project: "项目",
+	Milestone: "里程碑",
 	"Add task": "添加任务",
 	"Add project": "添加项目",
 	"(no title)": "(无题)",
@@ -28,4 +31,8 @@ export default {
 	"Start to start": "开始开始",
 	"End to end": "端到端",
 	"Start to end": "开始到结束",
+
+	Lasts: "持续",
+	day: "天",
+	days: "天",
 };
