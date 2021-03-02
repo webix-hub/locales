@@ -38,12 +38,12 @@ export default {
 
 	"Add assignment": "Добавить",
 	Assignments: "Назначения",
-	Assigned: "Выделены",
+	Assigned: "Назначены",
 	"Delete assignment": "Удалить назначение",
 	"Are you sure to delete this assignment?":
 		"Вы действительно хотите удалить это назначение?",
 	"No resources to add": "Нет ресурсов",
-	Unassigned: "Не выделены",
+	Unassigned: "Без назначения",
 
 	hour: "ч",
 	"Hours per day": "Часы в день",
