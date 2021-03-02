@@ -41,6 +41,8 @@ export default {
 		"range-title": "Named ranges",
 		"range-name": "Name",
 		"range-cells": "Range",
+		"range-scope": "Scope",
+		"range-global": "Book",
 		// images
 		"image-or": "or",
 		"image-title": "Add image",
@@ -291,7 +293,8 @@ export default {
 		"add-comment":"Comment"
 	},
 	table:{
-		"math-error":"ERROR",
+		"math-error":"#ERROR!",
+		"math-ref-error":"#REF!",
 		"format-error":"INCORRECT FORMAT"
 	},
 	liveEditor:{

@@ -27,6 +27,8 @@ export default {
 	Export: "Экспорт",
 	"To Excel": "В Excel",
 	"To CSV": "В CSV",
+	"To PNG": "В PNG",
+	"To PDF": "В PDF",
 	Filter: "Фильтр",
 	"Filtering query": "Фильтр-запрос",
 	"Frozen columns above": "Замороженные столбцы выше",

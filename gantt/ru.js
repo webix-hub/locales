@@ -35,4 +35,20 @@ export default {
 	Lasts: "Длится",
 	day: "день",
 	days: "дней",
+
+	"Add assignment": "Добавить",
+	Assignments: "Назначения",
+	Assigned: "Назначены",
+	"Delete assignment": "Удалить назначение",
+	"Are you sure to delete this assignment?":
+		"Вы действительно хотите удалить это назначение?",
+	"No resources to add": "Нет ресурсов",
+	Unassigned: "Без назначения",
+
+	hour: "ч",
+	"Hours per day": "Часы в день",
+	"Tasks per day": "Задачи в час",
+	Name: "Имя",
+	Hours: "Часы",
+	Tasks: "Задачи",
 };

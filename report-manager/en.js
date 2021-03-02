@@ -25,6 +25,8 @@ export default {
 	Export: "Export",
 	"To Excel": "To Excel",
 	"To CSV": "To CSV",
+	"To PNG": "To PNG",
+	"To PDF": "To PDF",
 	Filter: "Filter",
 	"Filtering query": "Filtering query",
 	"Frozen columns above": "Frozen columns above",

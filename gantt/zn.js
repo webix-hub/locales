@@ -35,4 +35,19 @@ export default {
 	Lasts: "持续",
 	day: "天",
 	days: "天",
+
+	"Add assignment": "添加作业",
+	Assignments: "作业",
+	Assigned: "已分配",
+	"Delete assignment": "删除作业",
+	"Are you sure to delete this assignment?": "您确定要删除此作业吗?",
+	"No resources to add": "没有资源",
+	Unassigned: "未分配",
+
+	hour: "小时",
+	"Hours per day": "每天营业时间",
+	"Tasks per day": "每天的任务",
+	Name: "姓名",
+	Hours: "小时",
+	Tasks: "任务",
 };

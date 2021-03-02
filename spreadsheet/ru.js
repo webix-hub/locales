@@ -41,6 +41,8 @@ export default {
 		"range-title": "Именованные диапазоны",
 		"range-name": "Имя",
 		"range-cells": "Диапазон",
+		"range-scope": "Область",
+		"range-global": "Книга",
 		// images
 		"image-or": "или",
 		"image-title": "Добавить изображение",
@@ -291,7 +293,8 @@ export default {
 		"add-comment":"Комментировать"
 	},
 	table:{
-		"math-error":"ОШИБКА",
+		"math-error":"#ОШИБКА!",
+		"math-ref-error":"#ССЫЛКА!",
 		"format-error":"ОШИБКА В ФОРМАТЕ"
 	},
 	liveEditor:{
