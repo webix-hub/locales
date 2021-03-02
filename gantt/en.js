@@ -30,9 +30,25 @@ export default {
 	"End to start": "End to start",
 	"Start to start": "Start to start",
 	"End to end": "End to end",
-	"Start to end": "Start to End",
+	"Start to end": "Start to end",
 
 	Lasts: "Lasts",
 	day: "day",
 	days: "days",
+
+	"Add assignment": "Add assignment",
+	Assignments: "Assignments",
+	Assigned: "Assigned",
+	"Delete assignment": "Delete assignment",
+	"Are you sure to delete this assignment?":
+		"Are you sure to delete this assignment?",
+	"No resources to add": "No resources to add",
+	Unassigned: "Unassigned",
+
+	hour: "h",
+	"Hours per day": "Hours per day",
+	"Tasks per day": "Tasks per day",
+	Name: "Name",
+	Hours: "Hours",
+	Tasks: "Tasks",
 };
