@@ -41,6 +41,8 @@ export default {
 		"range-title": "Benannter Bereich",
 		"range-name": "Name",
 		"range-cells": "Bereich",
+		"range-scope": "Umfang",
+		"range-global": "Arbeitsmappe",
 		// images
 		"image-or": "oder",
 		"image-title": "Bild hinzufügen",
@@ -291,7 +293,8 @@ export default {
 		"add-comment":"Kommentar"
 	},
 	table:{
-		"math-error":"ERROR",
+		"math-error":"#ERROR!",
+		"math-ref-error":"#BEZUG!",
 		"format-error":"FALSCHES FORMAT"
 	},
 	liveEditor:{
