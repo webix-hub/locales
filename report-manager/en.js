@@ -109,4 +109,7 @@ export default {
 	False: "False",
 	"Save filter to use it in other reports":
 		"Save filter to use it in other reports",
+	"No filter": "No filter",
+	Text: "Text",
+	Select: "Select",
 };

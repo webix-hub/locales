@@ -111,4 +111,7 @@ export default {
 	False: "Ложь",
 	"Save filter to use it in other reports":
 		"Сохраните фильтр, чтобы использовать его в других отчетах",
+	"No filter": "Без фильтра",
+	Text: "Текстовый",
+	Select: "Список",
 };
