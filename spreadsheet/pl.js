@@ -126,7 +126,7 @@ export default {
 		"chart-series":"Serie",
 		"chart-extras":"Dodatkowe",
 
-		"export-view":"Pobierz,
+		"export-view":"Pobierz",
 		"export-view-pdf":"Dokument PDF",
 		"export-view-png":"Obraz PNG",
 		"export-view-excel":"Plik Excel",
