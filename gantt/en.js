@@ -46,9 +46,15 @@ export default {
 	Unassigned: "Unassigned",
 
 	hour: "h",
-	"Hours per day": "Hours per day",
-	"Tasks per day": "Tasks per day",
+	"Hours per": "Hours per",
+	"Tasks per": "Tasks per",
 	Name: "Name",
 	Hours: "Hours",
 	Tasks: "Tasks",
+	month: "month",
+	week: "week",
+	quarter: "quarter",
+	year: "year",
+
+	"Split task": "Split task",
 };

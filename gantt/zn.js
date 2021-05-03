@@ -2,11 +2,8 @@ export default {
 	Edit: "编辑",
 	Done: "完成了",
 	"Delete task": "删除任务",
-	"Delete link": "删除链接",
 	"The task will be deleted permanently, are you sure?":
 		"该任务将被永久删除, 您确定?",
-	"The link will be deleted permanently, are you sure?":
-		"该链接将被永久删除, 您确定?",
 	Predecessors: "前辈",
 	Successors: "后继者",
 
@@ -45,9 +42,15 @@ export default {
 	Unassigned: "未分配",
 
 	hour: "小时",
-	"Hours per day": "每天营业时间",
-	"Tasks per day": "每天的任务",
+	"Hours per": "的小时数",
+	"Tasks per": "的任务",
 	Name: "姓名",
 	Hours: "小时",
 	Tasks: "任务",
+	month: "月",
+	week: "星期",
+	quarter: "一刻钟",
+	year: "年",
+
+	"Split task": "拆分任务",
 };

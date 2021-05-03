@@ -2,11 +2,8 @@ export default {
 	Edit: "Править",
 	Done: "Готово",
 	"Delete task": "Удалить задачу",
-	"Delete link": "Удалить связь",
 	"The task will be deleted permanently, are you sure?":
 		"Задача будет удалена навсегда, вы уверены?",
-	"The link will be deleted permanently, are you sure?":
-		"Связь будет удалена навсегда, вы уверены?",
 	Predecessors: "Предшествующие",
 	Successors: "Последующие",
 
@@ -46,9 +43,15 @@ export default {
 	Unassigned: "Без назначения",
 
 	hour: "ч",
-	"Hours per day": "Часы в день",
-	"Tasks per day": "Задачи в час",
+	"Hours per": "Часы в",
+	"Tasks per": "Задачи в",
 	Name: "Имя",
 	Hours: "Часы",
 	Tasks: "Задачи",
+	month: "месяц",
+	week: "неделю",
+	quarter: "квартал",
+	year: "год",
+
+	"Split task": "Разделенная задача",
 };

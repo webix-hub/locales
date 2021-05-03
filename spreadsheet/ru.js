@@ -11,6 +11,7 @@ export default {
 		"decimal-places":"Десятичные знаки",
 		"separator":"Разряды",
 		"negative":"Отрицательное число",
+		"currency-symbol":"Валюта",
 		"date-format":"Формат даты",
 		"format-docs":"Как создать свой формат",
 		// titles
@@ -140,14 +141,21 @@ export default {
 		"spline-chart":"Сглаженный",
 		"splinearea-chart":"Сглаженный с областями",
 
-		"chart-axis":"Оси",
-		"chart-scale":"Линии",
+		"chart-scale":"Оси",
+		"chart-x-axis":"Ось X",
+		"chart-y-axis":"Ось Y",
+		"chart-lines":"Линии",
 		"chart-scale-color":"Цвет линий",
-		"chart-xAxis-title":"Название оси X",
-		"chart-yAxis-title":"Название оси Y",
+		"chart-xAxis-title":"Название",
+		"chart-yAxis-title":"Название",
 		"chart-col-xAxis":"Ось Х: левый столбец",
 		"chart-row-xAxis":"Ось Х: верхний ряд",
-		"chart-xAxis-range":"Диапазон оси X",
+		"chart-xAxis-range":"Диапазон",
+		"chart-yAxis-origin":"Начало",
+		"chart-yAxis-start":"Старт",
+		"chart-yAxis-end":"Конец",
+		"chart-yAxis-step":"Шаг",
+		"chart-yAxis-note":"* Установите все параметры, чтобы увидеть эффект",
 
 		"chart-legend":"Легенда",
 		"chart-row-legend":"Легенда: верхний ряд",
@@ -169,6 +177,7 @@ export default {
 		"add-line":"Добавить линию",
 		"chart-type":"Тип",
 		"chart-tooltip":"Подсказки",
+		"chart-label":"Подписи",
 
 		"chart-data-from":"Брать данные из",
 		"chart-columns":"колонок",
@@ -306,6 +315,12 @@ export default {
 		"longDateFormat": "dd mmmm yyyy",
 		"fullDateFormat": "dd.mm.yyyy hh:mm",
 		"parseDateTime": "%d.%m.%Y %G:%i:%s",
-		"parseDate": "%d.%m.%Y"
+		"parseDate": "%d.%m.%Y",
+		"currencies": [
+			"${obj}",
+			"{obj} €",
+			"¥{obj}",
+			"R$ {obj}"
+		]
 	}
 };

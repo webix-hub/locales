@@ -11,6 +11,7 @@ export default {
 		"decimal-places":"Decimal places",
 		"separator":"Group separator",
 		"negative":"Negative number",
+		"currency-symbol":"Сurrency",
 		"date-format":"Date format",
 		"format-docs":"How to create a format",
 		// titles
@@ -140,14 +141,21 @@ export default {
 		"spline-chart":"Spline",
 		"splinearea-chart":"Spline Area",
 
-		"chart-axis":"Axis",
-		"chart-scale":"Lines",
+		"chart-scale":"Scale",
+		"chart-x-axis":"X axis",
+		"chart-y-axis":"Y axis",
+		"chart-lines":"Lines",
 		"chart-scale-color":"Scale color",
-		"chart-xAxis-title":"X axis title",
-		"chart-yAxis-title":"Y axis title",
+		"chart-xAxis-title":"Title",
+		"chart-yAxis-title":"Title",
 		"chart-col-xAxis":"Use left column as xAxis",
 		"chart-row-xAxis":"Use top row as xAxis",
-		"chart-xAxis-range":"xAxis range",
+		"chart-xAxis-range":"Range",
+		"chart-yAxis-origin":"Origin",
+		"chart-yAxis-start":"Start",
+		"chart-yAxis-end":"End",
+		"chart-yAxis-step":"Step",
+		"chart-yAxis-note":"* Set all the following parameters to see the effect",
 
 		"chart-legend":"Legend",
 		"chart-row-legend":"Use top row as legend",
@@ -169,6 +177,7 @@ export default {
 		"add-line":"Add line",
 		"chart-type":"Type",
 		"chart-tooltip":"Tooltips",
+		"chart-label":"Labels",
 
 		"chart-data-from":"Data series from",
 		"chart-columns":"columns",
@@ -306,6 +315,12 @@ export default {
 		"longDateFormat": "dd mmmm yyyy",
 		"fullDateFormat": "mm/dd/yyyy hh:mm AM/PM",
 		"parseDateTime": "%m/%d/%Y %G:%i:%s",
-		"parseDate": "%m/%d/%Y"
+		"parseDate": "%m/%d/%Y",
+		"currencies": [
+			"{obj} €",
+			"¥{obj}",
+			"R$ {obj}",
+			"{obj} rub."
+		]
 	}
 };
