@@ -81,12 +81,11 @@ export default {
 	"Open tag settings": "打开标签设置",
 	"Type to search a tag": "输入搜索或添加标签",
 	"Show version history": "显示版本历史",
-	"Unsaved changes will be lost. Are you sure?":
-		"未保存的更改将丢失。你确定吗？",
 	"Last edited on": "上次编辑是",
 	"Last edited at": "上次编辑是",
 	"Back to editor": "返回编辑",
 	"Version history": "版本历史",
 	"Show changes": "显示变更",
 	"Restored from": "从还原",
+	"Restore this version": "恢复此版本",
 };

@@ -4,6 +4,8 @@ export default {
 	Day: "Day",
 	Month: "Month",
 	Agenda: "Agenda",
+	Units: "Units",
+	Timeline: "Timeline",
 	Today: "Today",
 	Create: "Create",
 	Next: "Next",
@@ -51,9 +53,10 @@ export default {
 	Notes: "Notes",
 	from: "from",
 	to: "to",
-	labelAllday: "All day",
-	labelTime: "Time",
 	"Edit event": "Edit event",
+	"Assigned to units": "Assigned to units",
+	"No units": "No units",
+	"Unknown unit": "Unknown unit",
 
 	//recurring
 	never: "never",
@@ -84,6 +87,7 @@ export default {
 	custom: "custom",
 	Every: "Every",
 	on: "on",
+	of: "of",
 	"after several occurrences": "after several occurrences",
 	date: "date",
 	"week on": "week on",
@@ -95,6 +99,10 @@ export default {
 	"This event": "This event",
 	"This event and the following": "This event and the following",
 	Cancel: "Cancel",
-	Move: "Move",
+	Apply: "Apply",
 	"Edit recurring event": "Edit recurring event",
+
+	"Timeline scale": "Timeline scale",
+	Section: "Section",
+	"Show more": "Show more",
 };

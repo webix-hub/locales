@@ -1,5 +1,6 @@
 export default {
 	Save: "保存",
+	"Save all": "保存全部",
 	Rename: "改名",
 	Open: "打开",
 	Edit: "编辑",
@@ -26,6 +27,7 @@ export default {
 	Preview: "文件预览",
 	Refresh: "刷新",
 	"Are you sure you want to exit without saving?": "您确定要不保存就退出吗？",
+	"Save before closing?": "关闭前保存？",
 	Copy: "复制",
 	Cut: "切",
 	Paste: "贴",
@@ -49,4 +51,13 @@ export default {
 	document: "档案",
 	of: "的",
 	used: "用过的",
+	"Open item location": "未清项目位置",
+	"Are you sure you want to delete": "你确定你要删除",
+	"these items:": "这些档案:",
+	"this item:": "这个文件:",
+	"Delete files": "删除文件",
+	and: "和",
+	"more file(s)": "更多档案",
+	"Close the editor": "关闭编辑器",
+	"Close this file": "关闭这个档案",
 };

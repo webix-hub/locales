@@ -30,14 +30,13 @@ export default {
 	"Open tag settings": "Open tag settings",
 	"Type to search a tag": "Type to search a tag",
 	"Show version history": "Show version history",
-	"Unsaved changes will be lost. Are you sure?":
-		"Unsaved changes will be lost. Are you sure?",
 	"Last edited at": "Last edited at",
 	"Last edited on": "Last edited on",
 	"Back to editor": "Back to editor",
 	"Version history": "Version history",
 	"Show changes": "Show changes",
 	"Restored from": "Restored from",
+	"Restore this version": "Restore this version",
 	// inherited from the File Manager
 	Save: "Save",
 	Rename: "Rename",

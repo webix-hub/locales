@@ -40,6 +40,7 @@ export default {
 	Registered: "Registered",
 	"Reset password": "Reset password",
 	Rules: "Rules",
+	"Rule information": "Rule information",
 	"Rules assigned": "Rules assigned",
 	"Rule Matrix": "Rule Matrix",
 	Save: "Save",
@@ -50,6 +51,7 @@ export default {
 	"Unknown user": "Unknown user",
 	"Upload new photo": "Upload new photo",
 	"User Manager": "User Manager",
+	"User information": "User information",
 	Users: "Users",
 	When: "When",
 	Who: "Who",
@@ -65,4 +67,5 @@ export default {
 	Roles: "Roles",
 	"Roles assigned": "Roles assigned",
 	"Role Matrix": "Role Matrix",
+	"Role information": "Role information",
 };
