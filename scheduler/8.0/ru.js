@@ -4,8 +4,8 @@ export default {
 	Day: "День",
 	Month: "Месяц",
 	Agenda: "Расписание",
-	Units: "Разделы",
 	Timeline: "Таймлайн",
+	Units: "Категории",
 	Today: "Сегодня",
 	Create: "Создать",
 	Next: "Назад",
@@ -54,9 +54,9 @@ export default {
 	from: "начало: ",
 	to: "конец: ",
 	"Edit event": "Редактировать событие",
-	"Assigned to units": "Находится в разделах",
-	"No units": "Нет разделов",
-	"Unknown unit": "Неизвестный раздел",
+	"Assigned to units": "Категории",
+	"No units": "Без категорий",
+	"Unknown unit": "Неизвестная категория",
 
 	// recurring
 	never: "никогда",
