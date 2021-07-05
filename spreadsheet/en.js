@@ -271,6 +271,8 @@ export default {
 		"resize-row": "Resize row",
 		"insert": "Insert",
 		"conditional-format": "Conditional format",
+		"common": "common",
+		"text": "text",
 		"clear": "Clear",
 		"clear-value":"Values",
 		"clear-style":"Styles",

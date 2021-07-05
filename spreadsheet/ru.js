@@ -32,6 +32,8 @@ export default {
 		"sheet": "Лист",
 		// conditions
 		"conditional-format": "Условное форматирование",
+		"common": "общие",
+		"text": "текст",
 		"condition": "Условие",
 		"conditional-style": "Стиль",
 		"conditional-operator": "Оператор",
