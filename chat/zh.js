@@ -1,4 +1,4 @@
-export default {
+var zhLocale = {
 	"Add members": "新增成员",
 	"Are you sure to leave this chat?": "您确定要离开此聊天吗",
 	Avatar: "头像",
@@ -25,4 +25,21 @@ export default {
 	"Show all members": "显示所有成员",
 	Users: "用户数",
 	You: "您",
+	Ringing: "打电话...",
+	"Active call": "当前通话",
+	"Is calling you": "给你打电话...",
+	Accept: "接听电话",
+	Reject: "拒绝",
+	"Start call": "开始通话",
+	"Join call": "加入此通话",
+	"End call": "结束这次通话",
+	"Ended call": "通话结束",
+	"Incoming call": "来电",
+	"Outgoing call": "拨出电话",
+	"Rejected call": "拒接电话",
+	"Missed call": "未接来电",
+	"Could not find your": "找不到",
+	"Error opening your": "访问错误",
+	microphone: "麦克风",
+	camera: "摄像头",
 };
