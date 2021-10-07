@@ -2,8 +2,11 @@ export default {
 	Edit: "编辑",
 	Done: "完成了",
 	"Delete task": "删除任务",
+	"Delete link": "删除链接",
 	"The task will be deleted permanently, are you sure?":
 		"该任务将被永久删除, 您确定?",
+	"The link will be deleted permanently, are you sure?":
+		"该链接将被永久删除, 您确定?",
 	Predecessors: "前辈",
 	Successors: "后继者",
 
@@ -34,6 +37,7 @@ export default {
 	days: "天",
 
 	"Add assignment": "添加作业",
+	Assignment: "作业",
 	Assignments: "作业",
 	Assigned: "已分配",
 	"Delete assignment": "删除作业",
