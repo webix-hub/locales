@@ -38,6 +38,7 @@ export default {
 	"Outgoing call": "Outgoing call",
 	"Rejected call": "Rejected call",
 	"Missed call": "Missed call",
+	"Can't start the call": "Can't start the call",
 	"Could not find your": "Could not find your",
 	"Error opening your": "Error opening your",
 	microphone: "microphone",

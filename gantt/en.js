@@ -37,6 +37,7 @@ export default {
 	days: "days",
 
 	"Add assignment": "Add assignment",
+	Assignment: "Assignment",
 	Assignments: "Assignments",
 	Assigned: "Assigned",
 	"Delete assignment": "Delete assignment",

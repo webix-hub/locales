@@ -1,4 +1,4 @@
-var zhLocale = {
+export default {
 	"Add members": "新增成员",
 	"Are you sure to leave this chat?": "您确定要离开此聊天吗",
 	Avatar: "头像",
@@ -38,6 +38,7 @@ var zhLocale = {
 	"Outgoing call": "拨出电话",
 	"Rejected call": "拒接电话",
 	"Missed call": "未接来电",
+	"Can't start the call": "创建呼叫时出错",
 	"Could not find your": "找不到",
 	"Error opening your": "访问错误",
 	microphone: "麦克风",

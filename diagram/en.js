@@ -15,6 +15,8 @@ export default {
 	Reset: "Reset",
 	Autoplace: "Autoplace",
 	Apply: "Apply",
+	Background: "Background",
+	Transparent: "Transparent",
 
 	// Titles of default groups in the list of shapes
 	Block: "Block",
@@ -25,6 +27,7 @@ export default {
 	// Built-in shapes: block
 	Circle: "Circle",
 	Dot: "Dot",
+	Ellipse: "Ellipse",
 	Head: "Head",
 	Heptagon: "Heptagon",
 	Join: "Join",
@@ -32,7 +35,9 @@ export default {
 	Octagon: "Octagon",
 	Pentagon: "Pentagon",
 	Plus: "Plus",
+	Rrect: "Rounded rectangle",
 	Rtriangle: "Right triangle",
+	Square: "Square",
 	Star: "Star",
 	Tail: "Tail",
 	Trapezoid: "Trapezoid",
@@ -44,11 +49,14 @@ export default {
 	Data: "Data",
 	Database: "Database",
 	Decision: "Decision",
+	Delay: "Delay",
 	Display: "Display",
 	Document: "Document",
+
 	Input: "Input",
 	Internal: "Internal",
 	Looplimit: "Loop limit",
+	Merge: "Merge",
 	Multidoc: "Multiple documents",
 	Note: "Note",
 	Operation: "Operation",
@@ -56,12 +64,15 @@ export default {
 	Output: "Output",
 	Preparation: "Preparation",
 	Process: "Process",
+
+	Sdata: "Sequential data",
 	Sort: "Sort",
-	Start: "Start",
+	Start: "Start / End",
 	Storage: "Storage",
 	Subroutine: "Subroutine",
+	Tape: "Tape",
 	// Built-in shapes: common
 	Default: "Default",
-	Organization: "Organization",
+	Org: "Organization",
 	Text: "Text",
 };
