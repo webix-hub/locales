@@ -39,6 +39,7 @@ export default {
 	"Restore this version": "Restore this version",
 	// inherited from the File Manager
 	Save: "Save",
+	"Save all": "Save all",
 	Rename: "Rename",
 	Open: "Open",
 	Edit: "Edit",
@@ -66,6 +67,7 @@ export default {
 	Refresh: "Refresh",
 	"Are you sure you want to exit without saving?":
 		"Are you sure you want to exit without saving?",
+	"Save before closing?": "Save before closing?",
 	Copy: "Copy",
 	Cut: "Cut",
 	Paste: "Paste",
@@ -89,4 +91,13 @@ export default {
 	document: "document",
 	of: "of",
 	used: "used",
+	"Open item location": "Open item location",
+	"Are you sure you want to delete": "Are you sure you want to delete",
+	"these items:": "these items:",
+	"this item:": "this item:",
+	"Delete files": "Delete files",
+	and: "and",
+	"more file(s)": "more file(s)",
+	"Close the editor": "Close the editor",
+	"Close this file": "Close this file",
 };
