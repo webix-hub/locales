@@ -38,6 +38,7 @@ export default {
 	"Outgoing call": "Исходящий звонок",
 	"Rejected call": "Отклонённый звонок",
 	"Missed call": "Пропущенный звонок",
+	"Can't start the call": "Ошибка при создании звонка",
 	"Could not find your": "Не обнаружен(а)",
 	"Error opening your": "Ошибка подключения:",
 	microphone: "микрофон",
