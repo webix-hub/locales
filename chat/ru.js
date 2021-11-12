@@ -43,4 +43,11 @@ export default {
 	"Error opening your": "Ошибка подключения:",
 	microphone: "микрофон",
 	camera: "камера",
+	Size: "Размер",
+	B: "Б",
+	KB: "КБ",
+	MB: "МБ",
+	GB: "ГБ",
+	"File size exceeds the limit": "Размер файла превышает допустимый предел",
+	"File upload error": "Ошибка загрузки файла",
 };

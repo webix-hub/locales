@@ -43,4 +43,11 @@ export default {
 	"Error opening your": "访问错误",
 	microphone: "麦克风",
 	camera: "摄像头",
+	Size: "大小",
+	B: "字节",
+	KB: "千字节",
+	MB: "兆字节",
+	GB: "千兆字节",
+	"File size exceeds the limit": "文件大小超过限制 ",
+	"File upload error": "文件上传错误",
 };
