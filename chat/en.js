@@ -43,4 +43,11 @@ export default {
 	"Error opening your": "Error opening your",
 	microphone: "microphone",
 	camera: "camera",
+	Size: "Size",
+	B: "B",
+	KB: "KB",
+	MB: "MB",
+	GB: "GB",
+	"File size exceeds the limit": "File size exceeds the limit",
+	"File upload error": "File upload error",
 };
