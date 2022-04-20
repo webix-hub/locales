@@ -41,6 +41,7 @@ export default {
 	"Add new file": "新建文本文件",
 	"Add new folder": "新建文件夹",
 	"Upload file": "上传文件",
+	"Upload folder": "上传文件夹",
 	folder: "文件夹",
 	file: "文件",
 	archive: "压缩文件",

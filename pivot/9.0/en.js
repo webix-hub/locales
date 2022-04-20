@@ -8,6 +8,8 @@ export default {
 	"Configure Pivot": "Configure Pivot",
 	Total: "Total",
 	//settings
+	Fields: "Fields",
+	Methods: "Methods",
 	Columns: "Columns",
 	"Add column": "Add column",
 	Rows: "Rows",
@@ -22,6 +24,8 @@ export default {
 	"Y axis title": "Y axis title",
 	"Scale color": "Scale color",
 	"Circled lines": "Circled lines",
+	Horizontal: "Horizontal",
+	Stacked: "Stacked",
 	Lines: "Lines",
 	Line: "Line",
 	Radar: "Radar",
@@ -38,6 +42,7 @@ export default {
 	"Min Y": "Min Y",
 	"Max Y": "Max Y",
 	Footer: "Footer",
+	"Total Column": "Total Column",
 	Off: "Off",
 	On: "On",
 	"Sum Only": "Sum Only",
@@ -49,4 +54,6 @@ export default {
 	wavg: "wavg",
 	any: "any",
 	sum: "sum",
+	complex: "complex",
+	"Incorrect formula in values": "Incorrect formula in values",
 };

@@ -50,4 +50,13 @@ export default {
 	GB: "千兆字节",
 	"File size exceeds the limit": "文件大小超过限制 ",
 	"File upload error": "文件上传错误",
+	"Smileys & People": "笑脸与人物",
+	"Animals & Nature": "动物与自然",
+	Activity: "活动",
+	"Travel & Places": "旅行和地方",
+	"Food & Drink": "食物和饮料",
+	Objects: "对象",
+	Symbols: "符号",
+	"Search results": "搜索结果",
+	Basic: "基本的",
 };

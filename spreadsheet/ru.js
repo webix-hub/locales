@@ -113,6 +113,7 @@ export default {
 		"page-actual":"Реальный размер",
 		"page-portrait":"Вертикальная",
 		"page-landscape":"Горизонтальная",
+		"external-ui":"Внешние виджеты",
 		//comment
 		"comment":"Комментировать",
 		//resize
@@ -151,7 +152,9 @@ export default {
 		"chart-xAxis-title":"Название",
 		"chart-yAxis-title":"Название",
 		"chart-col-xAxis":"Ось Х: левый столбец",
+		"chart-col-yAxis":"Ось Y: левый столбец",
 		"chart-row-xAxis":"Ось Х: верхний ряд",
+		"chart-row-yAxis":"Ось Y: верхний ряд",
 		"chart-xAxis-range":"Диапазон",
 		"chart-yAxis-origin":"Начало",
 		"chart-yAxis-start":"Старт",
@@ -174,6 +177,7 @@ export default {
 
 		"chart-item":"Линия",
 		"stacked-chart":"Накопление",
+		"horizontal-chart":"Горизонтальный",
 		"chart-range":"Диапазон",
 		"chart-series-color":"Цвет",
 		"add-line":"Добавить линию",
@@ -228,9 +232,11 @@ export default {
 		"decrease-decimals":"Уменьшить число десятичных знаков",
 		"font-weight": "Жирный",
 		"font-style": "Курсив",
-		"text-decoration": "Подчеркнутый",
+		"underline": "Подчеркнутый",
+		"strike": "Перечеркнутый",
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
+		"show-formulas": "Спрятать/показать формулы",
 		"create-filter": "Создать/удалить фильтры",
 		"freeze-columns" : "Закрепить столбцы",		
 		"add-range": "Имя выделенного диапазона",
@@ -244,7 +250,9 @@ export default {
 		"sheet": "Листы",
 		"add-image": "Рисунок",
 		"add-sparkline": "График",
-		"add-comment": "Комментировать"
+		"add-comment": "Комментировать",
+		"increase-indent" : "Увеличить отступ",
+		"decrease-indent": "Уменьшить отступ",
 	},
 	menus:{
 		"remove-sheet": "Удалить лист",
@@ -297,11 +305,20 @@ export default {
 		"freeze-rows": "Закрепить строки",
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
+		"show-formulas": "Спрятать/показать формулы",
 		"create-filter": "Создать/удалить фильтры",
 		"add-dropdown": "Добавить выпадающий список",
 		"lock-cell": "Закрыть ячейку",
 		"print": "Распечатать",
-		"add-comment":"Комментировать"
+		"add-comment":"Комментировать",
+		"cut": "Вырезать",
+		"copy": "Копировать",
+		"paste": "Вставить",
+		"special-paste": "Специальная вставка",
+		"paste-values": "Значения",
+		"paste-formulas": "Формулы",
+		"paste-styles": "Стили",
+		"paste-conditions": "Условное форматирование"
 	},
 	table:{
 		"math-error":"#ОШИБКА!",

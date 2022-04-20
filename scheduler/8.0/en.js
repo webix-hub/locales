@@ -105,4 +105,6 @@ export default {
 	"Timeline scale": "Timeline scale",
 	Section: "Section",
 	"Show more": "Show more",
+	"Copy of": "Copy of",
+	"Copy event": "Copy event",
 };

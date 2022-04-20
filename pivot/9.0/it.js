@@ -8,6 +8,8 @@ export default {
 	"Configure Pivot": "Configurazione di Pivot",
 	Total: "Totale",
 	//settings
+	Fields: "Campi",
+	Methods: "Metodi",
 	Columns: "Colonne",
 	"Add column": "Aggiungi colonna",
 	Rows: "Righe",
@@ -22,6 +24,8 @@ export default {
 	"Y axis title": "Titolo dell'asse Y",
 	"Scale color": "Colore scala",
 	"Circled lines": "Bordo circolare",
+	Horizontal: "Orizzontale",
+	Stacked: "Impilata",
 	Lines: "Linee",
 	Line: "A linee",
 	Radar: "Radar",
@@ -38,6 +42,7 @@ export default {
 	"Min Y": "Minimo Y",
 	"Max Y": "Massimale Y",
 	Footer: "Piè di pagina",
+	"Total Column": "Colonna totale",
 	Off: "Spegnere",
 	On: "Accendere",
 	"Sum Only": "Solo somma",
@@ -49,4 +54,6 @@ export default {
 	wavg: "med.pond.",
 	any: "qualsiasi",
 	sum: "somma",
+	complex: "complesso",
+	"Incorrect formula in values": "Formula errata nei valori",
 };
