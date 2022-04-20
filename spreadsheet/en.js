@@ -111,6 +111,7 @@ export default {
 		"page-actual":"Actual Size",
 		"page-portrait":"Portrait",
 		"page-landscape":"Landscape",
+		"external-ui":"External UI",
 		//comment
 		"comment":"Comment",
 		//resize
@@ -149,7 +150,9 @@ export default {
 		"chart-xAxis-title":"Title",
 		"chart-yAxis-title":"Title",
 		"chart-col-xAxis":"Use left column as xAxis",
+		"chart-col-yAxis":"Use left column as yAxis",
 		"chart-row-xAxis":"Use top row as xAxis",
+		"chart-row-yAxis":"Use top row as yAxis",
 		"chart-xAxis-range":"Range",
 		"chart-yAxis-origin":"Origin",
 		"chart-yAxis-start":"Start",
@@ -172,6 +175,7 @@ export default {
 
 		"chart-item":"Data",
 		"stacked-chart":"Stacked",
+		"horizontal-chart":"Horizontal",
 		"chart-range":"Range",
 		"chart-series-color":"Color",
 		"add-line":"Add line",
@@ -226,9 +230,11 @@ export default {
 		"decrease-decimals":"Decrease decimal places",
 		"font-weight": "Bold",
 		"font-style": "Italic",
-		"text-decoration": "Underline",
+		"underline": "Underline",
+		"strike": "Strike",
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
+		"show-formulas": "Hide/show formulas",
 		"create-filter": "Create/remove filters",
 		"freeze-columns" : "Freeze/unfreeze columns",
 		"add-range": "Set name for the selected range",
@@ -242,7 +248,9 @@ export default {
 		"sheet": "Sheet",
 		"add-image": "Image",
 		"add-sparkline": "Graph",
-		"add-comment": "Comment"
+		"add-comment": "Comment",
+		"increase-indent" : "Increase indent",
+		"decrease-indent": "Decrease indent"
 	},
 	menus:{
 		"remove-sheet": "Remove sheet",
@@ -297,11 +305,20 @@ export default {
 		"freeze-rows": "Freeze/unfreeze rows",
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
+		"show-formulas": "Hide/show formulas",
 		"create-filter": "Create/remove filters",
 		"add-dropdown": "Add dropdown",
 		"lock-cell": "Lock/unlock cell",
 		"print": "Print",
-		"add-comment":"Comment"
+		"add-comment":"Comment",
+		"cut": "Cut",
+		"copy": "Copy",
+		"paste": "Paste",
+		"special-paste": "Special paste",
+		"paste-values": "Values",
+		"paste-formulas": "Formulas",
+		"paste-styles": "Styles",
+		"paste-conditions": "Conditional formats"
 	},
 	table:{
 		"math-error":"#ERROR!",
