@@ -112,4 +112,15 @@ export default {
 	"No filter": "No filter",
 	Text: "Text",
 	Select: "Select",
+	buckets: "buckets",
+	"Data buckets": "Data buckets",
+	"Bucket name": "Bucket name",
+	"Bucket values": "Bucket values",
+	"Add bucket": "Add bucket",
+	"Specify columns and their data buckets":
+		"Specify columns and their data buckets",
+	Search: "Search",
+	Other: "Other",
+	"Other values": "Other values",
+	"Are you sure to delete?": "Are you sure to delete?",
 };
