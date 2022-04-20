@@ -42,6 +42,7 @@ export default {
 	"Add new file": "Add new file",
 	"Add new folder": "Add new folder",
 	"Upload file": "Upload file",
+	"Upload folder": "Upload folder",
 	folder: "folder",
 	file: "file",
 	archive: "archive",
