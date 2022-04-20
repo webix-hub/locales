@@ -105,4 +105,7 @@ export default {
 	"Timeline scale": "Масштаб таймлайна",
 	Section: "Комната",
 	"Show more": "Показать еще события",
+	
+	"Copy of": "Копия",
+	"Copy event": "Копировать событие",
 };
