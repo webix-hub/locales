@@ -81,6 +81,7 @@ export default {
 	"Add new file": "Добавить файл",
 	"Add new folder": "Добавить папку",
 	"Upload file": "Загрузить файл",
+	"Upload folder": "Загрузить папку",
 	folder: "папка",
 	file: "файл",
 	archive: "архив",
