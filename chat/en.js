@@ -50,4 +50,13 @@ export default {
 	GB: "GB",
 	"File size exceeds the limit": "File size exceeds the limit",
 	"File upload error": "File upload error",
+	"Smileys & People": "Smileys & People",
+	"Animals & Nature": "Animals & Nature",
+	Activity: "Activity",
+	"Travel & Places": "Travel & Places",
+	"Food & Drink": "Food & Drink",
+	Objects: "Objects",
+	"Search results": "Search results",
+	Symbols: "Symbols",
+	Basic: "Basic",
 };

@@ -50,4 +50,13 @@ export default {
 	GB: "ГБ",
 	"File size exceeds the limit": "Размер файла превышает допустимый предел",
 	"File upload error": "Ошибка загрузки файла",
+	"Smileys & People": "Смайлы и люди",
+	"Animals & Nature": "Животные и природа",
+	Activity: "Деятельность",
+	"Travel & Places": "Путешествия и мир",
+	"Food & Drink": "Еда и напитки",
+	Objects: "Предметы",
+	Symbols: "Символы",
+	"Search results": "Результаты поиска",
+	Basic: "Основные",
 };
