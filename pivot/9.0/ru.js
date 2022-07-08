@@ -33,6 +33,8 @@ export default {
 	Area: "С областями",
 	Spline: "Сглаженный",
 	"Spline Area": "Сглаженный с областями",
+	Pie: "Круговая",
+	Donut:"Кольцевая",
 	Values: "Значения",
 	"Add value": "Добавить значение",
 	"Field not defined": "Поле не определено",
@@ -46,6 +48,8 @@ export default {
 	Off: "выкл.",
 	On: "вкл.",
 	"Sum Only": "Только сумма",
+	"3D":"3D",
+	"Show values inside":"Показывать значения",
 	//operations
 	count: "количество",
 	max: "максимум",

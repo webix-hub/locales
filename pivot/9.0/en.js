@@ -33,6 +33,8 @@ export default {
 	Area: "Area",
 	Spline: "Spline",
 	"Spline Area": "Spline Area",
+	Pie: "Pie",
+	Donut: "Donut",
 	Values: "Values",
 	"Add value": "Add value",
 	"Field not defined": "Field not defined",
@@ -46,6 +48,8 @@ export default {
 	Off: "Off",
 	On: "On",
 	"Sum Only": "Sum Only",
+	"3D": "3D",
+	"Show values inside": "Show values inside",
 	//operations
 	count: "count",
 	max: "max",

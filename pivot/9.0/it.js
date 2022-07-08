@@ -33,6 +33,8 @@ export default {
 	Area: "Con aree",
 	Spline: "Levigato",
 	"Spline Area": "Levigato con aree",
+	Pie: "Grafico a torta",
+	Donut: "Grafico a ciambella",
 	Values: "Valori",
 	"Add value": "Aggiungi valore",
 	"Field not defined": "Campo non definito",
@@ -46,6 +48,8 @@ export default {
 	Off: "Spegnere",
 	On: "Accendere",
 	"Sum Only": "Solo somma",
+	"3D": "3D",
+	"Show values inside": "Mostra i valori all'interno",
 	//operations
 	count: "conti.num.",
 	max: "max",
