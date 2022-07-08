@@ -73,4 +73,7 @@ export default {
 	Default: "Блок по умолчанию",
 	Org: "Организация",
 	Text: "Текст",
+	"Add label": "Добавить метку",
+	"Alignment relative to link": "Выравнивание относительно линии",
+	"Position shift": "Смещение позиции",
 };
