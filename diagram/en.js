@@ -75,4 +75,7 @@ export default {
 	Default: "Default",
 	Org: "Organization",
 	Text: "Text",
+	"Add label": "Add label",
+	"Alignment relative to link": "Alignment relative to link",
+	"Position shift": "Position shift",
 };
