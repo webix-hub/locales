@@ -91,6 +91,7 @@ export default {
 		"sheet-remove-confirm": "Are you sure you want to remove the sheet permanently?",
 		"merge-cell-confirm":"Only the left top value will remain after merging. Continue?",
 		"error-range": "The range is incorrect!",
+		"error-link": "The link is incorrect!",
 		//print
 		"print":"Print",
 		"print-title":"Before you print..",
@@ -111,6 +112,7 @@ export default {
 		"page-portrait":"Portrait",
 		"page-landscape":"Landscape",
 		"external-ui":"External UI",
+		"print-borders": "Show print borders",
 		//comment
 		"comment":"Comment",
 		//resize
@@ -192,7 +194,6 @@ export default {
 		"chart-markers-diamond":"Diamond",
 		"chart-markers-round":"Round",
 
-		"chart-pie-text":"Show values inside",
 		"chart-pie-3d":"3D",
 
 		"chart-radar-circle":"Circled lines"
@@ -234,6 +235,7 @@ export default {
 		"hide-gridlines": "Hide/show gridlines",
 		"hide-headers": "Hide/show headers",
 		"show-formulas": "Hide/show formulas",
+		"print-borders": "Hide/show print borders",
 		"create-filter": "Create/remove filters",
 		"freeze-columns" : "Freeze/unfreeze columns",
 		"add-range": "Set name for the selected range",
@@ -249,11 +251,13 @@ export default {
 		"add-sparkline": "Graph",
 		"add-comment": "Comment",
 		"increase-indent" : "Increase indent",
-		"decrease-indent": "Decrease indent"
+		"decrease-indent": "Decrease indent",
+		"show-sheet": "Show sheet"
 	},
 	menus:{
 		"remove-sheet": "Remove sheet",
 		"rename-sheet": "Rename sheet",
+		"hide-sheet": "Hide sheet",
 		"file": "File",
 		"new": "New",
 		"new-sheet": "New sheet",
@@ -309,6 +313,7 @@ export default {
 		"add-dropdown": "Add dropdown",
 		"lock-cell": "Lock/unlock cell",
 		"print": "Print",
+		"print-borders": "Hide/show print borders",
 		"add-comment":"Comment",
 		"cut": "Cut",
 		"copy": "Copy",
