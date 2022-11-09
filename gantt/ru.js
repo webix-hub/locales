@@ -58,4 +58,9 @@ export default {
 	year: "год",
 
 	"Split task": "Разделенная задача",
+	"Planned dates": "Планируемые даты",
+	"Planned dates will be removed, are you sure?":
+		"Запланированные даты будут удалены, вы уверены?",
+	"Add dates": "Запланировать даты",
+	"Remove dates": "Удалить даты",
 };

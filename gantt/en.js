@@ -58,4 +58,9 @@ export default {
 	year: "year",
 
 	"Split task": "Split task",
+	"Planned dates": "Planned dates",
+	"Planned dates will be removed, are you sure?":
+		"Planned dates will be removed, are you sure?",
+	"Add dates": "Add dates",
+	"Remove dates": "Remove dates",
 };
