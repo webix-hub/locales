@@ -24,7 +24,7 @@ export default {
 		"column": "Колонка",
 		"borders": "Границы",
 		"px": "px",
-		"apply": "Готово",
+		"apply": "Применить",
 		// popups and dialogs
 		"cancel": "Отменить",
 		"save": "Сохранить",
@@ -93,6 +93,7 @@ export default {
 		"sheet-remove-confirm": "Эту операцию нельзя отменить. Вы уверены?",
 		"merge-cell-confirm":"После объединения останется только верхнее левое значение. Продолжить?",
 		"error-range": "Неверный диапазон!",
+		"error-link": "Неверная ссылка!",
 		//print
 		"print":"Распечатать",
 		"print-title":"Перед печатью..",
@@ -113,6 +114,7 @@ export default {
 		"page-portrait":"Вертикальная",
 		"page-landscape":"Горизонтальная",
 		"external-ui":"Внешние виджеты",
+		"print-borders": "Показать границы печати",
 		//comment
 		"comment":"Комментировать",
 		//resize
@@ -194,7 +196,6 @@ export default {
 		"chart-markers-diamond":"Ромб",
 		"chart-markers-round":"Круг",
 
-		"chart-pie-text":"Показать значения",
 		"chart-pie-3d":"3D",
 
 		"chart-radar-circle":"Круговая граница"
@@ -214,7 +215,7 @@ export default {
 		"borders-bottom": "Нижняя граница",
 		"borders-all": "Все границы",
 		"borders-outer": "Внешние границы",
-		"borders-top-bottom": "Верхняя и нижняя границы",
+		"borders-top-bottom": "Верняя и нижняя границы",
 		"borders-color": "Цвет границы",
 		"align-left": "Выровнять по левому краю",
 		"align-center": "По центру",
@@ -236,6 +237,7 @@ export default {
 		"hide-gridlines": "Спрятать/показать сетку",
 		"hide-headers": "Спрятать/показать заголовки",
 		"show-formulas": "Спрятать/показать формулы",
+		"print-borders": "Спрятать/показать границы печати",
 		"create-filter": "Создать/удалить фильтры",
 		"freeze-columns" : "Закрепить столбцы",		
 		"add-range": "Имя выделенного диапазона",
@@ -252,10 +254,12 @@ export default {
 		"add-comment": "Комментировать",
 		"increase-indent" : "Увеличить отступ",
 		"decrease-indent": "Уменьшить отступ",
+		"show-sheet": "Показать лист"
 	},
 	menus:{
 		"remove-sheet": "Удалить лист",
 		"rename-sheet": "Переименовать лист",
+		"hide-sheet": "Спрятать лист",
 		"file": "Файл",
 		"new": "Новый",
 		"new-sheet": "Новый лист",
@@ -309,6 +313,7 @@ export default {
 		"add-dropdown": "Добавить выпадающий список",
 		"lock-cell": "Закрыть ячейку",
 		"print": "Распечатать",
+		"print-borders": "Спрятать/показать границы печати",
 		"add-comment":"Комментировать",
 		"cut": "Вырезать",
 		"copy": "Копировать",

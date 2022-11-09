@@ -57,4 +57,9 @@ export default {
 	year: "年",
 
 	"Split task": "拆分任务",
+	"Planned dates": "计划日期",
+	"Planned dates will be removed, are you sure?":
+		"计划日期将被删除，您确定吗？",
+	"Add dates": "添加计划日期",
+	"Remove dates": "删除计划日期",
 };

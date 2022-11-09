@@ -1,0 +1,27 @@
+export default {
+	"Add task below": "在下方添加任务",
+	"Add subtask": "添加子任务",
+	Indent: "右偏移",
+	Unindent: "向左偏移",
+	"Set due date": "设置截止日期",
+	"Assign to": "分配给",
+	"Move to": "搬去",
+	Duplicate: "复制",
+	Copy: "复制",
+	Paste: "粘贴",
+	Delete: "删除",
+	"Add project": "添加项目",
+	"Rename project": "重命名项目",
+	"Delete project": "删除项目",
+
+	"No project": "没有项目",
+	"Add task": "添加任务",
+	"New project": "新项目",
+	"Enter a description": "输入描述",
+	Search: "搜索",
+
+	Show: "显示",
+	all: "全部",
+	active: "活性",
+	completed: "已完成",
+};
