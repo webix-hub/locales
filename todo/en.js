@@ -1,0 +1,27 @@
+export default {
+	"Add task below": "Add task below",
+	"Add subtask": "Add subtask",
+	Indent: "Indent",
+	Unindent: "Unindent",
+	"Set due date": "Set due date",
+	"Assign to": "Assign to",
+	"Move to": "Move to",
+	Duplicate: "Duplicate",
+	Copy: "Copy",
+	Paste: "Paste",
+	Delete: "Delete",
+	"Add project": "Add project",
+	"Rename project": "Rename project",
+	"Delete project": "Delete project",
+
+	"No project": "No project",
+	"Add task": "Add task",
+	"New project": "New project",
+	"Enter a description": "Enter a description",
+	Search: "Search",
+
+	Show: "Show",
+	all: "all",
+	active: "active",
+	completed: "completed",
+};
