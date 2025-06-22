@@ -37,6 +37,7 @@ export default {
 	"Show changes": "Show changes",
 	"Restored from": "Restored from",
 	"Restore this version": "Restore this version",
+
 	// inherited from the File Manager
 	Save: "Save",
 	"Save all": "Save all",
@@ -101,4 +102,39 @@ export default {
 	"more file(s)": "more file(s)",
 	"Close the editor": "Close the editor",
 	"Close this file": "Close this file",
+
+	Filter: "Filter",
+
+	Archives: "Archives",
+	Audio: "Audio",
+	Code: "Code",
+	Images: "Images",
+	Video: "Videos",
+	Documents: "Documents",
+	Other: "Other",
+
+	Apply: "Apply",
+
+	Tiny: "Tiny",
+	Small: "Small",
+	Medium: "Medium",
+	Huge: "Huge",
+	Gigantic: "Gigantic",
+
+	Location: "Location",
+	"Global Search": "Global Search",
+	"This Folder": "This Folder",
+	"Custom Location": "Custom Location",
+
+	Uploaded: "Uploaded",
+	"files out of": "files out of",
+	"There are too many results for this search.<br/> Try your search with more specific keywords.":
+		"There are too many results for this search.<br/> Try your search with more specific keywords.",
+	"Reload folder": "Reload folder",
+	"Reload without limit": "Reload without limit",
+
+	B: "B",
+	kB: "kB",
+	MB: "MB",
+	GB: "GB",
 };

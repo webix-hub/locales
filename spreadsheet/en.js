@@ -32,6 +32,8 @@ export default {
 		"sheet": "Sheet",
 		// conditions
 		"conditional-format": "Conditional Format",
+		"conditional-common": "Common",
+		"conditional-text": "Text",
 		"condition": "Condition",
 		"conditional-style": "Style",
 		"conditional-operator": "Operator",
@@ -61,6 +63,7 @@ export default {
 		"format-pattern": "Format pattern",
 		//dropdown
 		"dropdown-empty": "Empty cells",
+		"dropdown-empty-option": "Empty option",
 		"dropdown-title": "Add dropdown",
 		"dropdown-range": "Range",
 		// confirm
@@ -83,6 +86,10 @@ export default {
 		"graph": "Graph",
 		"add-sparkline":"Add to cell",
 		"add-chart":"Add above cells",
+		//controls
+		"controls":"Controls",
+		"add-checkbox":"Add checkbox",
+		"add-radio":"Add radio group",
 		//conditional format labels
 		"display" : "Display",
 		"value" : "Value",
@@ -142,6 +149,7 @@ export default {
 		"radar-chart":"Radar",
 		"spline-chart":"Spline",
 		"splinearea-chart":"Spline Area",
+		"scatter-chart":"Scatter",
 
 		"chart-scale":"Scale",
 		"chart-x-axis":"X axis",
@@ -196,7 +204,55 @@ export default {
 
 		"chart-pie-3d":"3D",
 
-		"chart-radar-circle":"Circled lines"
+		"chart-radar-circle":"Circled lines",
+
+		//validation
+		"add-cell-validation": "Add data validation",
+		"remove-cell-validation": "Remove data validation",
+		"highlight-invalid-data": "Highlight invalid data",
+		"remove-highlight-invalid-data": "Remove highlighting of invalid data",
+		"validation-placeholder-text": "Some text",
+		"validation-type": "Type",
+		"validation-any": "Any",
+		"validation-date": "Date",
+		"validation-number": "Number",
+		"validation-text": "Text",
+		"validation-text-length": "Text length",
+		"validation-range": "Range",
+		"validation-integer": "Integers only",
+		"validation-ignore-empty": "Ignore empty",
+		"validation-input-message": "Input message",
+		"validation-error-title": "Error title",
+		"validation-error-message": "Error message",
+		"validation-error-handle": "Error handle",
+		"validation-error-stop": "Stop",
+		"validation-error-warning": "Warning",
+		"validation-error-information": "Information",
+		"validation-error-title-text": "Error",
+		"validation-error-message-text": "Invalid data",
+		"validation-error-save": "Save",
+		"validation-error-restore": "Restore",
+		//find and replace
+		"find-replace-title": "Find and Replace",
+		"find-title": "Find",
+		"find-what": "Find what:",
+		"replace-with": "Replace with:",
+		"find-within": "Within:",
+		"find-sheet": "Sheet",
+		"find-book": "Book",
+		"find-match-case": "Match case",
+		"find-match-entire-content": "Match entire cell contents",
+		"find-look-in": "Look in",
+		"find-formulas": "Formulas",
+		"find-values": "Values",
+		"find-all-sheet": "Sheet",
+		"find-all-cell": "Cell",
+		"find-all-value": "Value",
+		"find-all-formula": "Formula",
+		"replace-all": "Replace all",
+		"replace": "Replace",
+		"find-all": "Find all",
+		"find-next": "Find next"
 	},
 	tooltips: {
 		"color": "Font color",
@@ -252,7 +308,14 @@ export default {
 		"add-comment": "Comment",
 		"increase-indent" : "Increase indent",
 		"decrease-indent": "Decrease indent",
-		"show-sheet": "Show sheet"
+		"scale": "Scale",
+		"show-sheet": "Show sheet",
+		"validation": "Validation",
+		"controls":"Controls",
+		"graph": "Graph",
+		"image": "Image",
+		"find": "Find and Replace",
+		"find-readonly": "Find"
 	},
 	menus:{
 		"remove-sheet": "Remove sheet",
@@ -288,7 +351,8 @@ export default {
 		"clear-value":"Values",
 		"clear-style":"Styles",
 		"clear-conditional-formats":"Conditional formats",
-		"clear-dropdown-editors":"Dropdowns and filters",
+		"clear-dropdown-editors":"Dropdowns",
+		"clear-filters":"Filters",
 		"clear-comments":"Comments",
 		"clear-all":"All",
 		"image": "Image",
@@ -297,6 +361,9 @@ export default {
 		"graph": "Graph",
 		"add-sparkline":"Add to cell",
 		"add-chart":"Add above cells",
+		"controls":"Controls",
+		"add-checkbox":"Add checkbox",
+		"add-radio":"Add radio group",
 		"data": "Data",
 		"add-link": "Add link",
 		"add-range": "Named ranges",
@@ -322,15 +389,96 @@ export default {
 		"paste-values": "Values",
 		"paste-formulas": "Formulas",
 		"paste-styles": "Styles",
-		"paste-conditions": "Conditional formats"
+		"paste-conditions": "Conditional formats",
+		"paste-validation": "Validation",
+		"add-cell-validation": "Add data validation",
+		"remove-cell-validation": "Remove data validation",
+		"highlight-invalid-data": "Highlight invalid data",
+		"remove-highlight-invalid-data": "Remove highlighting of invalid data",
+		"validation": "Validation",
+		"find": "Find and Replace",
+		"find-readonly": "Find",
+		"other": "Other"
 	},
 	table:{
 		"math-error":"#ERROR!",
 		"math-ref-error":"#REF!",
-		"format-error":"INCORRECT FORMAT"
+		"format-error":"INCORRECT FORMAT",
+		"math-xss-error": "#XSS!"
 	},
 	liveEditor:{
-		"edit":"Edit:"
+		"edit":"Edit:",
+		"date": "Date",
+		"number": "Number",
+		"text": "Text",
+		"financial": "Financial",
+		"common": "Common",
+		"search": "Search",
+		"category": "Category",
+		"functions-syntax": {
+			"IMAGE": [
+				[
+					"Url",
+					"Required. Image link"
+				]
+			],
+			"HYPERLINK": [
+				[
+					"Link_location",
+					"Required. The path and file name to the document to be opened. Link_location can refer to a place in a document — such as a specific cell or named range."
+				],
+				[
+					"Friendly_name",
+					"Optional. The jump text or numeric value that is displayed in the cell. Friendly_name is displayed in blue and is underlined. If friendly_name is omitted, the cell displays the link_location as the jump text."
+				]
+			],
+			"SPARKLINE": [
+				[
+					"Range",
+					"Required. Range or named range"
+				],
+				[
+					"Type",
+					"Required. Sparkline type"
+				],
+				[
+					"Positive_color",
+					"Required. Positive color"
+				],
+				[
+					"Negative_color",
+					"Required. Negative color"
+				]
+			],
+			"CHECKBOX": [
+				[
+					"State",
+					"Optional. Сheckbox state"
+				]
+			],
+			"RADIO": [
+				[
+					"Y_position",
+					"Required. Y-axis position in radio group"
+				],
+				[
+					"X_position",
+					"Required. X-axis position in radio group"
+				],
+				[
+					"Row_count",
+					"Required. Rows count in radio group"
+				],
+				[
+					"Col_count",
+					"Required. Сolumns count in radio group"
+				],
+				[
+					"State",
+					"Optional. Radio button state"
+				]
+			]
+		}
 	},
 	formats:{
 		"dateFormat": "mm/dd/yyyy",

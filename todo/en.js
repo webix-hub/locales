@@ -4,6 +4,11 @@ export default {
 	Indent: "Indent",
 	Unindent: "Unindent",
 	"Set due date": "Set due date",
+	Priority: "Priority",
+	Low: "Low",
+	Medium: "Medium",
+	High: "High",
+	"Reset priority": "Reset priority",
 	"Assign to": "Assign to",
 	"Move to": "Move to",
 	Duplicate: "Duplicate",
@@ -24,4 +29,16 @@ export default {
 	all: "all",
 	active: "active",
 	completed: "completed",
+
+	"Sort by": "Sort by",
+	"Text (a-z)": "Text (a-z)",
+	"Text (z-a)": "Text (z-a)",
+	"Priority (low to high)": "Priority (low to high)",
+	"Priority (high to low)": "Priority (high to low)",
+	"Due date (old to new)": "Due date (old to new)",
+	"Due date (new to old)": "Due date (new to old)",
+
+	"Delete task": "Delete task",
+	"The task will be deleted permanently, are you sure?":
+		"The task will be deleted permanently, are you sure?",
 };

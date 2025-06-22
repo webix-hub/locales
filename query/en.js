@@ -11,7 +11,7 @@ export default {
 	contains: "contains",
 	notContains: "not contains",
 	beginsWith: "begins",
-	notBeginsWith: "not begings",
+	notBeginsWith: "not begins",
 	endsWith: "ends",
 	notEndsWith: "not ends",
 	between: "between",

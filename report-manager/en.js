@@ -96,7 +96,6 @@ export default {
 	Bar: "Bar",
 	"Stacked bar": "Stacked bar",
 	Radar: "Radar",
-	Donut: "Donut",
 	"Create copy": "Create copy",
 	circle: "circle",
 	square: "square",
@@ -123,4 +122,11 @@ export default {
 	Other: "Other",
 	"Other values": "Other values",
 	"Are you sure to delete?": "Are you sure to delete?",
+	Facets: "Facets",
+	"Specify a facet column to display data subsets":
+		"Specify a facet column to display data subsets",
+	"A size of faceted views": "A size of faceted views",
+	Small: "Small",
+	Medium: "Medium",
+	Large: "Large",
 };
