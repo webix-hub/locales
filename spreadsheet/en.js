@@ -1,3 +1,5 @@
+import { getMethodParams } from "./math/params";
+
 export default {
 	labels:{
 		// formats
@@ -415,7 +417,7 @@ export default {
 		"common": "Common",
 		"search": "Search",
 		"category": "Category",
-		"functions-syntax": {
+		"functions-syntax": Object.assign(getMethodParams() , {
 			"IMAGE": [
 				[
 					"Url",
@@ -478,7 +480,7 @@ export default {
 					"Optional. Radio button state"
 				]
 			]
-		}
+		})
 	},
 	formats:{
 		"dateFormat": "mm/dd/yyyy",
