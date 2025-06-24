@@ -1,6 +1,6 @@
 {
   "name": "@wbx/locales",
-  "version": "10.0.0",
+  "version": "11.1.0",
   "description": "Locale files for Webix widgets",
   "main": "index.js",
   "scripts": {

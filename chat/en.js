@@ -59,4 +59,14 @@ export default {
 	"Search results": "Search results",
 	Symbols: "Symbols",
 	Basic: "Basic",
+	edited: "edited",
+	Connecting: "Connecting",
+	"Line is busy": "Line is busy",
+	"You have been removed from the group":
+		"You have been removed from the group",
+	"Already in the call": "Already in the call",
+	"Call is active in another chat": "Call is active in another chat",
+	"Internal call error": "Internal call error",
+	"Voice message": "Voice message",
+	"typing...": "typing...",
 };

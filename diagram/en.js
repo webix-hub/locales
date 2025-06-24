@@ -23,6 +23,7 @@ export default {
 	Flow: "Flow",
 	Common: "Common",
 	Extra: "Extra",
+	Lines: "Lines",
 
 	// Built-in shapes: block
 	Circle: "Circle",
