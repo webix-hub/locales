@@ -1,4 +1,4 @@
-import { getMethodParams } from "./math/params";
+import { getMethodParams } from "./functions/en";
 
 export default {
 	labels:{
