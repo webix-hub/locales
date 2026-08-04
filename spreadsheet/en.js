@@ -102,6 +102,7 @@ export default {
 		"error-merge-multiselect": "The merge cells feature is available if only one area is selected",
 		"error-sort-multiselect": "Sorting is available if only one area is selected",
 		"error-autofill-multiselect": "Autofill is available if only one area is selected",
+		"error-autofill-incomplete": "Autofill is not available: formula ends with an operator (+, -, *, /, etc.)",
 		"error-clipboard-multiselect": "Clipboard operations are available if only one area is selected",
 		"error-filter-multiselect": "Creating and removing filters are available if only one area is selected",
 		"error-group-multiselect": "Grouping and ungrouping are available if only one area is selected",
